@@ -4,7 +4,7 @@
 
 ---
 
-:pushpin: ##  Table of Contents
+## :pushpin: Table of Contents
 - [Description](#description)
 - [Technologies](#technologies)
 - [How to Use](#how-to-use)
