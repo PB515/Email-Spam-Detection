@@ -15,7 +15,7 @@
 
 ---
 
-**:card_file_box:** ## Description  
+## Description  
 
 This project is designed to detect spam emails by scanning the **subject and body** for specific spam-related patterns. It can detect:  
 ✅ **Spam keywords** (e.g., "earn money", "free gift")  
