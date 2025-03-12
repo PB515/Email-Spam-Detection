@@ -5,7 +5,7 @@
 ---
 
 ## :pushpin: Table of Contents
-- [Description](#:card_file_box:-Description)
+- [Description](#Description)
 - [Technologies](#technologies)
 - [How to Use](#how-to-use)
 - [Gmail Integration](#gmail-integration)
@@ -14,8 +14,8 @@
 - [Author Info](#author-info) 
 
 ---
-
-## :card_file_box: Description  
+:card_file_box: 
+## Description  
 
 This project is designed to detect spam emails by scanning the **subject and body** for specific spam-related patterns. It can detect:  
 ✅ **Spam keywords** (e.g., "earn money", "free gift")  
