@@ -9,13 +9,27 @@ from googleapiclient.discovery import build
 
 # Spam detection patterns
 spam_patterns = [
-    r"\bearn money\b", r"\bmake money\b", r"\bget rich\b",
-    r"\bwork from home\b", r"\bfree money\b", r"\bopportunity\b",
-    r"\binvestment\b", r"\bcredit score\b", r"\bdebt relief\b",
-    r"\bweight loss\b", r"\bdiet pill\b", r"\bviagra\b", r"\bCialis\b",
-    r"\bonline pharmacy\b", r"\blottery\b", r"\bprize\b",
-    r"\bfree gift\b", r"\bspecial offer\b", r"\blimited time\b",
-    r"\bis live",r"\bwent live"
+    r"\bearn money\b",
+    r"\bmake money\b",
+    r"\bget rich\b",
+    r"\bwork from home\b",
+    r"\bfree money\b",
+    r"\bopportunity\b",
+    r"\binvestment\b",
+    r"\bcredit score\b",
+    r"\bdebt relief\b",
+    r"\bweight loss\b",
+    r"\bdiet pill\b",
+    r"\bviagra\b",
+    r"\bCialis\b",
+    r"\bonline pharmacy\b",
+    r"\blottery\b",
+    r"\bprize\b",
+    r"\bfree gift\b",
+    r"\bspecial offer\b",
+    r"\blimited time\b",
+    r"\bis live",
+    r"\bwent live"
 ]
 
 # Compile regex patterns
