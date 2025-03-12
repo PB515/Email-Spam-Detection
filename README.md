@@ -4,7 +4,7 @@
 
 ---
 
-## ** Table of Contents**
+##  Table of Contents
 - [Description](#description)
 - [Technologies](#technologies)
 - [How to Use](#how-to-use)
@@ -30,7 +30,7 @@ Additionally, the script **integrates with Gmail** to:
 
 ---
  
-## ** Technologies**  
+##  Technologies  
 - **Python**  
 - **Google Gmail API**  
 - **Regular Expressions (re module)**  
@@ -38,9 +38,9 @@ Additionally, the script **integrates with Gmail** to:
 
 ---
 
-## ** How To Use**  
+##  How To Use
 
-### **Installation**  
+### Installation  
 
 1. **Clone the repository**  
    ```bash
@@ -63,7 +63,7 @@ Additionally, the script **integrates with Gmail** to:
 
 ---
 
-## ** Gmail Integration**  
+##  Gmail Integration
 
 To integrate with Gmail, follow these steps:  
 
@@ -77,7 +77,7 @@ To integrate with Gmail, follow these steps:
 
 ---
 
-## ** Saving Email Data**  
+##  Saving Email Data  
 
 The script will **count and log** all scanned emails.  
 
@@ -96,7 +96,7 @@ The script will **count and log** all scanned emails.
  **Location:** The file `email_analysis.csv` will be saved in the project folder.  
 
 ---
-## ** Graphical Representations**
+##  Graphical Representations
 To help analyze the email spam trends, the script generates the following graphs:
 
 Spam vs. Non-Spam (Pie Chart)
@@ -106,7 +106,7 @@ Shows the proportion of spam vs. non-spam emails detected.
 
 ---
 
-## ** License**  
+## License  
 
 **MIT License**  
 
@@ -114,7 +114,7 @@ This project is open-source and free to use under the **MIT License**.
 
 ---
 
-## ** Author Info**  
+##  Author Info  
 
 - **GitHub** - [PB515](https://github.com/PB515)  
 - **LinkedIn** - [Purven Bhavsar](https://linkedin.com/in/purvenbhavsar)  
