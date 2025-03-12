@@ -9,9 +9,11 @@ Here's your **updated README** file, customized for the latest spam detection sc
 ---
 
 ## **📌 Table of Contents**
-- [Description](#Description)
-- [Technologies](#technologies)
+- [Description](#description)
 - [How To Use](#how-to-use)
+- [References](#references)
+- [License](#license)
+- [Author Info](#author-info)
 - [Gmail Integration](#gmail-integration)
 - [Saving Email Data](#saving-email-data)
 - [Graphical Representations](#Graphical-Representations)
