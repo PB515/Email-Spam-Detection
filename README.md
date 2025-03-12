@@ -1,7 +1,3 @@
-Here's your **updated README** file, customized for the latest spam detection script that **counts spam & non-spam emails and saves data to a CSV file**.  
-
----
-
 # **📧 Email Spam Detection**  
 
 > A Python-based spam detection system that identifies spam emails by analyzing predefined keyword patterns, hyperlinks, and excessive capitalization. The system integrates with Gmail to scan unread emails and move detected spam to the **Spam** folder.  
@@ -10,19 +6,16 @@ Here's your **updated README** file, customized for the latest spam detection sc
 
 ## **📌 Table of Contents**
 - [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
+- [Technologies](#technologies)
+- [How to Use](#how-to-use)
 - [Gmail Integration](#gmail-integration)
-- [Saving Email Data](#saving-email-data)
-- [Graphical Representations](#Graphical-Representations)
+- [Graphical Representations](#graphical-representations)
 - [License](#license)
-- [Author Info](#author-info)  
+- [Author Info](#author-info) 
 
 ---
 
-## ** Description**  
+## Description  
 
 This project is designed to detect spam emails by scanning the **subject and body** for specific spam-related patterns. It can detect:  
 ✅ **Spam keywords** (e.g., "earn money", "free gift")  
