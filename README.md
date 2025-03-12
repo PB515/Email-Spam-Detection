@@ -29,8 +29,8 @@ Additionally, the script **integrates with Gmail** to:
 - **Save the email analysis data to a CSV file** for further review  
 
 ---
-
-## **💻 Technologies**  
+ 
+💻 ## ** Technologies**  
 - **Python**  
 - **Google Gmail API**  
 - **Regular Expressions (re module)**  
