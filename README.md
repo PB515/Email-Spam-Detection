@@ -14,6 +14,7 @@ Here's your **updated README** file, customized for the latest spam detection sc
 - [How To Use](#how-to-use)
 - [Gmail Integration](#gmail-integration)
 - [Saving Email Data](#saving-email-data)
+- [Graphical Representations](#Graphical-Representations)
 - [License](#license)
 - [Author Info](#author-info)  
 
