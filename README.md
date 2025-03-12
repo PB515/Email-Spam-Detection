@@ -5,7 +5,7 @@
 ---
 
 ## :pushpin: Table of Contents
-- [Description](#description)
+- [Description](#:card_file_box:-Description)
 - [Technologies](#technologies)
 - [How to Use](#how-to-use)
 - [Gmail Integration](#gmail-integration)
