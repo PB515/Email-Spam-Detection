@@ -102,7 +102,7 @@ To help analyze the email spam trends, the script generates the following graphs
 Spam vs. Non-Spam (Pie Chart)
 Shows the proportion of spam vs. non-spam emails detected.
 
-![Pir Chart](https://github.com/PB515/Email-Spam-Detection/issues/1#issuecomment-2717523568)
+![Pie Chart](https://drive.google.com/file/d/17R5-5Ie96NSU8CnOESzJbHLOQE12T486/view?usp=drive_link)
 
 ---
 
