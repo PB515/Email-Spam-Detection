@@ -20,7 +20,7 @@ Here's your **updated README** file, customized for the latest spam detection sc
 
 ---
 
-## **📜** ** Description**  
+## **📜** ## ** Description**  
 
 This project is designed to detect spam emails by scanning the **subject and body** for specific spam-related patterns. It can detect:  
 ✅ **Spam keywords** (e.g., "earn money", "free gift")  
