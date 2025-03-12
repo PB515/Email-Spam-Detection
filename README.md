@@ -1,102 +1,120 @@
-# Email Spam Detection
-
-
-
-> A Python-based spam detection system that identifies spam emails based on predefined keyword patterns and hyperlinks.
+Here's your **updated README** file, customized for the latest spam detection script that **counts spam & non-spam emails and saves data to a CSV file**.  
 
 ---
 
-### Table of Contents
+# **📧 Email Spam Detection**  
 
+> A Python-based spam detection system that identifies spam emails by analyzing predefined keyword patterns, hyperlinks, and excessive capitalization. The system integrates with Gmail to scan unread emails and move detected spam to the **Spam** folder.  
+
+---
+
+## **📌 Table of Contents**
 - [Description](#description)
 - [Technologies](#technologies)
 - [How To Use](#how-to-use)
 - [Gmail Integration](#gmail-integration)
+- [Saving Email Data](#saving-email-data)
 - [License](#license)
-- [Author Info](#author-info)
+- [Author Info](#author-info)  
 
 ---
 
-## Description
+## **📜 Description**  
 
-This project is designed to detect spam emails by scanning the subject and body for specific patterns, including spam keywords, hyperlinks, and excessive capitalization. Additionally, it integrates with Gmail to automatically filter out spam messages from the inbox.
+This project is designed to detect spam emails by scanning the **subject and body** for specific spam-related patterns. It can detect:  
+✅ **Spam keywords** (e.g., "earn money", "free gift")  
+✅ **Suspicious hyperlinks**  
+✅ **Excessive capitalization**  
 
-#### Features:
-
-- Detects spam using regex-based keyword matching.
-- Identifies spam emails containing suspicious links.
-- Flags emails with excessive capitalization.
-- Integrates with Gmail API to scan unread emails and move spam to the Spam folder.
-
-[Back To The Top](#email-spam-detection)
-
----
-
-## Technologies
-
-- Python
-- Google Gmail API
-- Regular Expressions (re module)
-- Google API Client Library
-
-[Back To The Top](#email-spam-detection)
+Additionally, the script **integrates with Gmail** to:  
+- Scan unread emails in the inbox  
+- **Move detected spam emails** to the Spam folder  
+- **Count** spam and non-spam emails  
+- **Save the email analysis data to a CSV file** for further review  
 
 ---
 
-## How To Use
+## **💻 Technologies**  
+- **Python**  
+- **Google Gmail API**  
+- **Regular Expressions (re module)**  
+- **Google API Client Library**  
 
-### Installation
+---
 
-1. Clone the repository:
+## **⚙ How To Use**  
+
+### **1️⃣ Installation**  
+
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/yourusername/email-spam-detection.git
    cd email-spam-detection
    ```
-2. Install dependencies:
+2. **Install dependencies**  
    ```bash
    pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
    ```
-3. Enable Gmail API and download `credentials.json` from the [Google Developer Console](https://console.cloud.google.com/).
-4. Place `credentials.json` in the project folder.
-5. Run the script:
+3. **Enable Gmail API**  
+   - Visit the [Google Developer Console](https://console.cloud.google.com/)  
+   - Enable **Gmail API**  
+   - Download `credentials.json` and place it inside the project folder  
+
+4. **Run the script**  
    ```bash
-   python gmail_spam_filter.py
+   python email_spam_detection.py
    ```
 
-[Back To The Top](#email-spam-detection)
+---
+
+## **📧 Gmail Integration**  
+
+To integrate with Gmail, follow these steps:  
+
+✅ **Enable the Gmail API** in Google Cloud Console  
+✅ **Set up OAuth credentials** and download `credentials.json`  
+✅ **Authenticate using OAuth** (only needed on first run)  
+✅ The script will:  
+   - **Scan unread emails**  
+   - **Detect spam**  
+   - **Move spam emails to the Spam folder**  
 
 ---
 
-## Gmail Integration
+## **📊 Saving Email Data**  
 
-To integrate with Gmail:
+The script will **count and log** all scanned emails.  
 
-- Enable the **Gmail API** in Google Cloud Console.
-- Set up OAuth credentials and download `credentials.json`.
-- Authenticate using OAuth (first-time setup).
-- The script will scan unread emails and move detected spam to the **Spam** folder.
+✔ **Spam Emails:** Moves detected spam to the Spam folder  
+✔ **Non-Spam Emails:** Leaves them in the inbox  
+✔ **Data Saved in `email_analysis.csv`**  
 
-[Back To The Top](#email-spam-detection)
+**Example CSV Output:**  
+| Email Subject           | Classification |  
+|-------------------------|---------------|  
+| 50% off                 | Spam          |  
+| Meeting at 10 AM        | Non-Spam      |  
+| NPTEL News Letter       | Spam          |  
+| Account Statement       | Non-Spam      |  
 
----
-
-## License
-
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-
-[Back To The Top](#email-spam-detection)
+📌 **Location:** The file `email_analysis.csv` will be saved in the project folder.  
 
 ---
 
-## Author Info
+## **📝 License**  
 
-- GitHub - [PB515](https://github.com/PB515)
-- LinkedIn - [Purven Bhavsar](https://linkedin.com/in/purvenbhavsar)
-- Website - [Purvenbhavsar.com](https://pb515.github.io/Purven-Bhavsar/)
+**MIT License**  
 
-[Back To The Top](#email-spam-detection)
+This project is open-source and free to use under the **MIT License**.  
+
+---
+
+## **👤 Author Info**  
+
+- **GitHub** - [PB515](https://github.com/PB515)  
+- **LinkedIn** - [Purven Bhavsar](https://linkedin.com/in/purvenbhavsar)  
+- **Website** - [purvenbhavsar.com](https://pb515.github.io/Purven-Bhavsar/)  
+
+---
+
 
