@@ -100,6 +100,13 @@ The script will **count and log** all scanned emails.
 📌 **Location:** The file `email_analysis.csv` will be saved in the project folder.  
 
 ---
+📈 Graphical Representations
+To help analyze the email spam trends, the script generates the following graphs:
+
+1️⃣ Spam vs. Non-Spam (Pie Chart)
+Shows the proportion of spam vs. non-spam emails detected.
+
+---
 
 ## **📝 License**  
 
